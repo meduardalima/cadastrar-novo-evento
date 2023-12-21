@@ -1,13 +1,11 @@
 "use client";
 
-import { Category } from "./components/category";
-import { Event } from "./components/event";
+import { Event } from "./components/registerEvent";
 
 export default function Home() {
   return (
     <main>
       <Event />
-      <Category />
     </main>
   );
 }
