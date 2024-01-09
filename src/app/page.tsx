@@ -1,11 +1,11 @@
 "use client";
 
-import { Event } from "./components/registerEvent";
+import { EventNew } from "./components/registerEvent";
 
 export default function Home() {
   return (
     <main>
-      <Event />
+      <EventNew />
     </main>
   );
 }
